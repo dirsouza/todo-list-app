@@ -20,7 +20,7 @@ module.exports = {
   devServer: {
     disableHostCheck: true,
   },
-  pluginsOptions: {
+  pluginOptions: {
     i18n: {},
   },
 };
