@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "module": "commonJS",
+    "target": "ES6",
+    "checkJs": true,
+    "baseUrl": ".",
+    "paths": {
+      "App/*": [
+        "src/app/*"
+      ],
+      "Support/*": [
+        "src/support/*"
+      ],
+      "Domain/*": [
+        "src/domain/*"
+      ],
+      "Assets/*": [
+        "src/assets/*"
+      ],
+      "Locales/*": [
+        "src/locales/*"
+      ],
+      "Plugin/*": [
+        "src/plugins/*"
+      ],
+      "@test/*": [
+        "tests/unit/*"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "**/node_modules/*"
+  ]
+}
