@@ -1,0 +1,65 @@
+{
+  "app": {
+    "todoList": {
+      "table": {
+        "title": "Lista de tarefas",
+        "perPage": "Por página",
+        "inputSearch": "@:commons.search",
+        "btnFilter": "@:commons.filter",
+        "btnNewTask": "Cadastrar Tarefa",
+        "filter": {
+          "title": "Filtrar",
+          "sortBy": "Classificar por",
+          "orderBy": "Ordenar por",
+          "descendant": "@:commons.descendant",
+          "creationDate": "Data de criação",
+          "archived": "@:commons.archived",
+          "completed": "@:commons.completed",
+          "btnConfirme": "@:commons.confirme",
+          "btnCancel": "@:commons.cancel"
+        },
+        "headers": {
+          "title": "@:commons.title",
+          "description": "@:commons.description",
+          "actions": "@:commons.actions"
+        }
+      },
+      "form": {
+        "createTitle": "Cadastrar tarefa",
+        "updateTitle": "Atualizar tarefa",
+        "inputTitle": "@:commons.title",
+        "inputDescription": "@:commons.description",
+        "switchArchived": "@:commons.toFile",
+        "switchCompleted": "@:commons.complete",
+        "btnSave": "@:commons.save",
+        "btnCancel": "@:commons.cancel"
+      }
+    }
+  },
+  "rulesMessage": {
+    "required": "O campo {field} é obrigatório.",
+    "min": "O campo {field} deve conter mais de {min} caracteres.",
+    "max": "O campo {field} deve conter no máximo {max} caracteres."
+  },
+  "commons": {
+    "title": "Título",
+    "description": "Descrição",
+    "toFile": "Arquivar",
+    "complete": "Completar",
+    "archived": "Arquivada",
+    "completed": "Completa",
+    "confirme": "Confirmar",
+    "save": "Salvar",
+    "cancel": "Cancelar",
+    "ascendant": "Ascendente",
+    "descendant": "Descendente",
+    "filter": "Filtro",
+    "search": "Buscar",
+    "success": "Sucesso",
+    "error": "Erro",
+    "actions": "Ações",
+    "edit": "Editar",
+    "delete": "Excluir",
+    "unarchive": "Desarquivar"
+  }
+}
