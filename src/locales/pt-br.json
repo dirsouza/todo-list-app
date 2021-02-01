@@ -22,6 +22,10 @@
           "title": "@:commons.title",
           "description": "@:commons.description",
           "actions": "@:commons.actions"
+        },
+        "actionDelete": {
+          "title": "Excluir tarefa",
+          "message": "Cofirma a exclusão dessa tarefa?"
         }
       },
       "form": {

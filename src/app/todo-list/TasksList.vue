@@ -370,6 +370,13 @@ export default {
 
     async onDeleteTask(task) {
       try {
+        const { isConfirmed } = await this.showConfirmDeleteDialog({
+          title: this.$t('app.todoList.table.actionDelete.title'),
+          text: this.$t('app.todoList.table.actionDelete.message'),
+        });
+
+        if (!isConfirmed) return;
+
         this.tasks = this.tasks.filter((tsk) => tsk.id !== task.id);
 
         const { message } = (await TasksRequest.delete(task.id)).data;
